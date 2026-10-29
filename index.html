@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto de análise de dados sobre juventude, educação e inclusão digital.">
+  <title>Raio-X da Juventude</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #12345a;
+      color: white;
+      padding: 55px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background: #0b223f;
+      padding: 14px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 24px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px #0000000d;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #e8f1fb;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      color: #12345a;
+    }
+
+    footer {
+      text-align: center;
+      background: #12345a;
+      color: white;
+      padding: 22px;
+    }
+
+    a {
+      color: #1765a5;
+    }
+
+    nav a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Raio-X da Juventude</h1>
+    <p>Dados para compreender desigualdades e transformar realidades.</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#indicadores">Indicadores</a>
+    <a href="#metodologia">Metodologia</a>
+    <a href="#propostas">Propostas</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre o projeto</h2>
+      <p>
+        O Raio-X da Juventude investiga condições socioeconômicas,
+        acesso digital e educação para apoiar propostas de melhoria
+        da qualidade de vida dos jovens brasileiros.
+      </p>
+    </section>
+
+    <section id="indicadores">
+      <h2>Indicadores do projeto</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Inclusão digital</h3>
+          <p>Acesso à internet e a recursos tecnológicos.</p>
+        </div>
+
+        <div class="card">
+          <h3>Educação</h3>
+          <p>Infraestrutura escolar e oportunidades de aprendizagem.</p>
+        </div>
+
+        <div class="card">
+          <h3>Desigualdade</h3>
+          <p>Diferenças sociais e regionais que merecem investigação.</p>
+        </div>
+      </div>
+      <p>
+        Os indicadores quantitativos serão publicados após a
+        validação das respectivas fontes e dos cálculos.
+      </p>
+    </section>
+
+    <section id="metodologia">
+      <h2>Metodologia</h2>
+      <ol>
+        <li>Coleta de dados de fontes públicas.</li>
+        <li>Tratamento e validação com Python e Pandas.</li>
+        <li>Análise exploratória e criação de gráficos.</li>
+        <li>Interpretação dos resultados e documentação.</li>
+      </ol>
+      <p>
+        Fontes previstas:
+        <a href="https://www.ibge.gov.br/">IBGE</a> e
+        <a href="https://www.gov.br/inep/pt-br">INEP</a>.
+      </p>
+    </section>
+
+    <section id="propostas">
+      <h2>Propostas de intervenção</h2>
+      <ul>
+        <li>Ampliar o acesso a equipamentos e internet para estudo.</li>
+        <li>Fortalecer a mentoria e o apoio pedagógico.</li>
+        <li>Oferecer formação em competências digitais.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Raio-X da Juventude | Projeto de Ciência de Dados</p>
+  </footer>
+</body>
+</html>
